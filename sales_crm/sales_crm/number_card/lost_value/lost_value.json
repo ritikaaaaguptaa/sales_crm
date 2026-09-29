@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "base_opportunity_amount",
+ "color": "#DC2626",
+ "creation": "2026-09-29 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Opportunity",
+ "dynamic_filters_json": "[[\"Opportunity\", \"company\", \"=\", \"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
+ "filters_json": "[[\"Opportunity\", \"status\", \"=\", \"Lost\"]]",
+ "function": "Sum",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Lost Value",
+ "modified": "2026-09-29 18:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Lost Value",
+ "owner": "Administrator",
+ "show_full_number": 0,
+ "show_percentage_stats": 0,
+ "type": "Document Type"
+}

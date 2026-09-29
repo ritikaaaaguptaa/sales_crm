@@ -1,0 +1,287 @@
+{
+ "app": "sales_crm",
+ "charts": [
+  {
+   "chart_name": "Opportunities by Temperature",
+   "label": "Opportunities by Temperature"
+  },
+  {
+   "chart_name": "Pipeline by Sales Stage",
+   "label": "Pipeline by Sales Stage"
+  }
+ ],
+ "content": "[{\"id\": \"salescrm01\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Pipeline</b></span>\", \"col\": 12}}, {\"id\": \"salescrm02\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Pipeline Value\", \"col\": 4}}, {\"id\": \"salescrm03\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Weighted Pipeline\", \"col\": 4}}, {\"id\": \"salescrm04\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Quotation Value\", \"col\": 4}}, {\"id\": \"salescrm05\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Won Value\", \"col\": 4}}, {\"id\": \"salescrm06\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Lost Value\", \"col\": 4}}, {\"id\": \"salescrm07\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Overdue Follow-ups\", \"col\": 4}}, {\"id\": \"salescrm08\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Opportunities by Temperature\", \"col\": 6}}, {\"id\": \"salescrm09\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Pipeline by Sales Stage\", \"col\": 6}}, {\"id\": \"salescrm10\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Access</b></span>\", \"col\": 12}}, {\"id\": \"salescrm11\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Lead\", \"col\": 3}}, {\"id\": \"salescrm12\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Opportunity\", \"col\": 3}}, {\"id\": \"salescrm13\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Estimation\", \"col\": 3}}, {\"id\": \"salescrm14\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quotation\", \"col\": 3}}, {\"id\": \"salescrm15\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Overdue Follow-ups\", \"col\": 3}}, {\"id\": \"salescrm16\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Reports &amp; Setup</b></span>\", \"col\": 12}}, {\"id\": \"salescrm17\", \"type\": \"card\", \"data\": {\"card_name\": \"Pipeline\", \"col\": 4}}, {\"id\": \"salescrm18\", \"type\": \"card\", \"data\": {\"card_name\": \"Reports\", \"col\": 4}}, {\"id\": \"salescrm19\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "creation": "2026-09-29 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "crm",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Sales CRM",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pipeline",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lead",
+   "link_count": 0,
+   "link_to": "Lead",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Opportunity",
+   "link_count": 0,
+   "link_to": "Opportunity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Estimation",
+   "link_count": 0,
+   "link_to": "Estimation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotation",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Overdue Follow-ups",
+   "link_count": 0,
+   "link_to": "Overdue Follow-ups",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Pipeline Analytics",
+   "link_count": 0,
+   "link_to": "Sales Pipeline Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Opportunity Summary by Sales Stage",
+   "link_count": 0,
+   "link_to": "Opportunity Summary by Sales Stage",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Lost Opportunity",
+   "link_count": 0,
+   "link_to": "Lost Opportunity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Funnel",
+   "link_count": 0,
+   "link_to": "sales-funnel",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Stage",
+   "link_count": 0,
+   "link_to": "Sales Stage",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Opportunity Lost Reason",
+   "link_count": 0,
+   "link_to": "Opportunity Lost Reason",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Workflow",
+   "link_count": 0,
+   "link_to": "Workflow",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CRM Settings",
+   "link_count": 0,
+   "link_to": "CRM Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-09-29 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Sales CRM",
+ "number_cards": [
+  {
+   "label": "Total Pipeline Value",
+   "number_card_name": "Total Pipeline Value"
+  },
+  {
+   "label": "Weighted Pipeline",
+   "number_card_name": "Weighted Pipeline"
+  },
+  {
+   "label": "Quotation Value",
+   "number_card_name": "Quotation Value"
+  },
+  {
+   "label": "Won Value",
+   "number_card_name": "Won Value"
+  },
+  {
+   "label": "Lost Value",
+   "number_card_name": "Lost Value"
+  },
+  {
+   "label": "Overdue Follow-ups",
+   "number_card_name": "Overdue Follow-ups"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Sales Manager"
+  }
+ ],
+ "sequence_id": 18.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Lead",
+   "link_to": "Lead",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Opportunity",
+   "link_to": "Opportunity",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Estimation",
+   "link_to": "Estimation",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Quotation",
+   "link_to": "Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "",
+   "label": "Overdue Follow-ups",
+   "link_to": "Overdue Follow-ups",
+   "type": "Report"
+  }
+ ],
+ "title": "Sales CRM",
+ "type": "Workspace"
+}

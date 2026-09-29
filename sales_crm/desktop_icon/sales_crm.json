@@ -1,0 +1,21 @@
+{
+ "app": "sales_crm",
+ "bg_color": "blue",
+ "creation": "2026-09-29 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "crm",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Sales CRM",
+ "link_to": "Sales CRM",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-09-29 12:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "Sales CRM",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

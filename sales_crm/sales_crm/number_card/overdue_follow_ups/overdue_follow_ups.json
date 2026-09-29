@@ -1,0 +1,22 @@
+{
+ "color": "#EA580C",
+ "creation": "2026-09-29 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Opportunity",
+ "dynamic_filters_json": "[[\"Opportunity\", \"company\", \"=\", \"frappe.defaults.get_user_default(\\\"Company\\\")\"], [\"Opportunity\", \"next_follow_up_date\", \"<\", \"frappe.datetime.get_today()\"]]",
+ "filters_json": "[[\"Opportunity\", \"status\", \"in\", [\"Open\", \"Replied\", \"Quotation\"]]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Overdue Follow-ups",
+ "modified": "2026-09-29 18:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sales CRM",
+ "name": "Overdue Follow-ups",
+ "owner": "Administrator",
+ "show_full_number": 0,
+ "show_percentage_stats": 0,
+ "type": "Document Type"
+}
